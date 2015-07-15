@@ -1,0 +1,58 @@
+{
+  "name": "sphere-message-processing-example",
+  "description": "A demonstration of sphere-message-processing library that sends an e-mail on every single order import.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/OlegIlyenko/sphere-message-processing-example.git",
+  "author": {
+    "name": "Oleg Ilyenko",
+    "email": "oleg.ilyenko@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sphereio/sphere-message-processing-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OlegIlyenko/sphere-message-processing-example/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/OlegIlyenko/sphere-message-processing-example.git/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/send-email-on-order-import",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bin": {
+    "send-email-on-order-import": "bin/send-email-on-order-import.js"
+  },
+  "dependencies": {
+    "optimist": "0.6.0",
+    "underscore": "~1.6.0",
+    "underscore.string": "2.3.3",
+    "q": "~1.0.0",
+    "q-io": "~1.10.9",
+    "rx": "2.2.13",
+    "sphere-message-processing": "0.3.19",
+    "nodemailer": "0.6.1"
+  },
+  "devDependencies": {
+    "coveralls": "2.10.0",
+    "grunt": "~0.4.1",
+    "grunt-bump": "~0.0.11",
+    "grunt-cli": "~0.1.9",
+    "grunt-coffeelint": "~0.0.8",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.10.0",
+    "grunt-contrib-concat": "0.4.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-shell": "~0.6.2",
+    "istanbul": "~0.2.3",
+    "jasmine-node": "1.14.5"
+  },
+  "keywords": []
+}
